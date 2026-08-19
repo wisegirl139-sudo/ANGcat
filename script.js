@@ -47,3 +47,5 @@ anxious.addEventListener("click",function(){
     music.innerHTML='<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2xhRAbLHzmuzq7e0R9NEbn?utm_source=generator&theme=0&si=b73a92474b8a4849" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
     document.body.className="anxiousbg"
 })
+
+const notes = document.getElementById("notes");
