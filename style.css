@@ -20,33 +20,48 @@
     width: 250px;
     height: 120px;
     padding: 15px;
-    background: rgb(81, 9, 152);
     text-align: center;
     cursor: pointer;
+    border: 3px solid;
+    transition: transform 0.3s ease,
+    border 0.2s ease,
+    boxshadow 0.2s ease;
 }
 
 #happy{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    background: #e7ca0b;
+    border: 3px solid rgb(193, 175, 60)0;
+    color: rgb(59, 56, 4);
 }
 
 #sad{
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+    background: #084eb8;
+    border: 3px solid #042b68;
+    color: whitesmoke;
 }
 
 #angry{
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    background: #a10909;
+    border: 3px solid #570505;
+    color: whitesmoke;
 }
 
 #anxious{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    background: #930bbd;
+    border: 3px solid #650084;
+    color: whitesmoke;
 }
 
 body{
@@ -83,7 +98,7 @@ body.anxiousbg{
 .note{
     position: absolute;
     bottom: -50px;
-    font-size: 40px;
+    width: 40px;
     animation: floatup 4s linear forwards;
 }
 
@@ -99,4 +114,27 @@ body.anxiousbg{
         transform: translateY(-100vh) rotate(30deg);
         opacity: 0;
     }
+}
+
+body{
+    font-family: "Fredoka",sans-serif;
+}
+
+.top h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #e2a6df ;
+    text-align: center;
+}
+
+.top p{
+    font-size: 17px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.moodbox:hover{
+    transform: translateY(-2px);
+    border-width: 5px;
 }
