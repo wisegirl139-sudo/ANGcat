@@ -26,6 +26,7 @@
     transition: transform 0.3s ease,
     border 0.2s ease,
     boxshadow 0.2s ease;
+    border-radius: 20px;
 }
 
 #happy{
