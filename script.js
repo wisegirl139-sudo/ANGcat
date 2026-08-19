@@ -48,7 +48,7 @@ anxious.addEventListener("click",function(){
     document.body.className="anxiousbg"
 })
 
-const notes = document.getElementById("notes");#
+const notes = document.getElementById("notes");
 function createNote(){
     const note = document.createElement("img");
     const noteImages =[
@@ -61,7 +61,7 @@ function createNote(){
     note.classList.add("note");
     note.style.left = Math.random()*100+"vw";
     notes.appendChild(note);
-    setTimeout(funcion(){
+    setTimeout(function(){
         note.remove();
     }, 4000);
 }
