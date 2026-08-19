@@ -88,14 +88,14 @@ body.anxiousbg{
 }
 
 @keyframes floatup{
-    0%{
+    from{
         transform: translateY(0) rotate(0deg);
         opacity: 0;
     }
     20%{
         opacity: 1;
     }
-    100%{
+    to{
         transform: translateY(-100vh) rotate(30deg);
         opacity: 0;
     }
