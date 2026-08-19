@@ -15,22 +15,26 @@ happy.addEventListener("click",function(){
     sad.style.display="none";
     angry.style.display="none";
     anxious.style.display="none";
+    cat.src = "images/happy.png"
 })
 
 sad.addEventListener("click",function(){
     happy.style.display="none";
     angry.style.display="none";
     anxious.style.display="none";
+    cat.src = "images/sad.png"
 })
 
 angry.addEventListener("click",function(){
     happy.style.display="none";
     sad.style.display="none";
     anxious.style.display="none";
+    cat.src = "images/angry.png"
 })
 
-angry.addEventListener("click",function(){
+anxious.addEventListener("click",function(){
     happy.style.display="none";
     sad.style.display="none";
-     angry.style.display="none";
+    angry.style.display="none";
+    cat.src = "images/anxious.png"
 })
