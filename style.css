@@ -1,7 +1,7 @@
 .cat{
     position: relative;
-    width: 600px;
-    height: 300px;
+    width: 750px;
+    height: 534px;
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -17,7 +17,8 @@
 
 .moodbox{
     position: absolute;
-    width: 160px;
+    width: 250px;
+    height: 120px;
     padding: 15px;
     background: rgb(81, 9, 152);
     text-align: center;
