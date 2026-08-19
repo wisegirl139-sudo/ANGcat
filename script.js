@@ -56,7 +56,7 @@ const notes = document.getElementById("notes");
 function createNote(){
     const note = document.createElement("img");
     const noteImages =[
-        "images/note1.png",
+        "images/noe1.png",
         "images/note2.png",
         "images/note3.png",
         "images/star.png"
