@@ -18,4 +18,32 @@
 .moodbox{
     position: absolute;
     width: 160px;
+    padding: 15px;
+    background: rgb(81, 9, 152);
+    text-align: center;
+    cursor: pointer;
+}
+
+#happy{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sad{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#angry{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#anxious{
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
