@@ -1,4 +1,4 @@
-const cat = document.getElementById("main");
+const cat = document.getElementById("maincat");
 const moods = document.getElementById("moods")
 
 cat.addEventListener("click",function(){
